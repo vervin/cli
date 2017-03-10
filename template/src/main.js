@@ -21,6 +21,8 @@ const router = new VueRouter({
 
 FastClick.attach(document.body){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
+Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+
 /* eslint-disable no-new */
 new Vue({
   router,
