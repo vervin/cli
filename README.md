@@ -23,7 +23,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 ## 3、使用脚手架
 
 ```bash
-npm install -g vue-cli
+cnpm install -g vue-cli
 vue init whkfzyx/cli my-project
 cd my-project
 cnpm install
